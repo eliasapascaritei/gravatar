@@ -21,7 +21,7 @@ More info [at Gravatar](http://gravatar.com/site/implement/images/)
 
 ### Use it as dependency
 
-Scravatar does not depend on any third party frameworks. It is built and deployed on maven central.
+The library does not depend on any third party. It is built and deployed on maven central.
 
 #### With SBT
 
@@ -41,7 +41,7 @@ libraryDependencies += "io.github.chrissom" %% "gravatar" % "1.1.0"
 
 ### About
 
-Forked from [magott](https://github.com/magott/scravatar) but not maintained since 2012. So here is somes fresh contributions!
+Forked from [magott](https://github.com/magott/scravatar) but not maintained since 2012. So here is some fresh contributions!
 
 ### License
 
