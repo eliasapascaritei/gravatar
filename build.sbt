@@ -30,21 +30,17 @@ startYear := Some(2014)
 licenses := Seq(("Apache 2", new URL("http://www.apache.org/licenses/LICENSE-2.0.txt")))
 
 pomExtra := {
-  <url>http://github.com/chrissom/gravatar</url>
-  <!-- License -->
-    <licenses>
-      <license>
-        <name>Apache 2</name>
-        <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
-      </license>
-    </licenses>
-  <!-- SCM information -->
+  <licenses>
+    <license>
+      <name>Apache 2</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
   <scm>
-    <url>github.com/chrissom/gravatar</url>
+    <url>http://github.com/chrissom/gravatar</url>
   	<connection>scm:git:github.com/chrissom/gravatar.git</connection>
   	<developerConnection>scm:git:git@github.com:chrissom/gravatar.git</developerConnection>
   </scm>
-  <!-- Developer contact information -->
   <developers>
     <developer>
       <id>chrissom</id>
