@@ -14,9 +14,7 @@ crossScalaVersions := Seq("2.9.1", "2.9.2", "2.10.4", "2.11.1")
 
 libraryDependencies += "org.scalatest" %% "scalatest" % "2.2.0" % "test"
 
-profileName := "chrissom"
-
-publishTo <<= (version) { version: String =>
+publishTo <<= version { version: String =>
     if (version.trim.endsWith("SNAPSHOT"))
       Some("Sonatype Nexus Snapshots" at "https://oss.sonatype.org/content/repositories/snapshots")
     else
@@ -30,12 +28,6 @@ startYear := Some(2014)
 licenses := Seq(("Apache 2", new URL("http://www.apache.org/licenses/LICENSE-2.0.txt")))
 
 pomExtra := {
-  <licenses>
-    <license>
-      <name>Apache 2</name>
-      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
-    </license>
-  </licenses>
   <scm>
     <url>http://github.com/chrissom/gravatar</url>
   	<connection>scm:git:github.com/chrissom/gravatar.git</connection>
